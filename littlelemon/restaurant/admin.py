@@ -1,6 +1,6 @@
 from django.contrib import admin
+from .models import BookingTable, MenuTable
 
-from .models import Booking, Menu
-
-admin.site.register(Menu)
-admin.site.register(Booking)
+# Register your models here.
+admin.site.register(BookingTable)
+admin.site.register(MenuTable)
